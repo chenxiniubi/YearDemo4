@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car_itam_bg">
+
+    <ImageView
+        android:id="@+id/img_pic"
+        android:layout_width="188dp"
+        android:layout_height="188dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="商铺名称"
+        android:layout_marginLeft="189dp"
+        android:textColor="#0f0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="价格"
+        android:layout_marginTop="100dp"
+        android:textColor="#f00"
+        android:textSize="18sp"
+        android:layout_marginLeft="189dp"/>
+
+    <com.example.l.yeardemo4.core.MyView
+        android:id="@+id/myView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>
